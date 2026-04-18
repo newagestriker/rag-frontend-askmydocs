@@ -14,7 +14,7 @@ function makeClient() {
       uri: process.env.NEXT_PUBLIC_GRAPHQL_URL,
       fetchOptions: { cache: "no-store" },
       headers: {
-        "alocaltonet-skip-warning": "true",
+        "localtonet-skip-warning": "true",
       },
     }),
   });
